@@ -11,7 +11,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatCardModule } from '@angular/material/card';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
-
+import { MatListModule } from '@angular/material/list';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -30,7 +31,11 @@ import { MatTableModule } from '@angular/material/table';
     MatDividerModule,
     MatCardModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatListModule,
+    FlexLayoutModule,
+    MatCardModule
+    
     
   ]
 })
